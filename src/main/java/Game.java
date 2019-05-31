@@ -20,10 +20,6 @@ public class Game {
 
         for(Player player : players){
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a48b6cff6b8c96b5c330037d87e7bd50fe47f137
             if(player.returnCardRank() > winner.returnCardRank()){
                 winner = player;
             }
